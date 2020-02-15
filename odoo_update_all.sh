@@ -62,6 +62,10 @@ cd web/
 sudo git pull
   echo -e "\e[0;32m Actualizado web  \e[0m"
 cd ..
+
+cd /community-data-files
+sudo git pull
+echo -e "\e[0;32m Actualizado community-data-files  \e[0m"
   echo
   echo -e "\e[0;33m Finalizada la actualización de los addons de Odoo ...\e[0m"
   echo
