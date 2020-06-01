@@ -8,7 +8,7 @@
 # Odoo V 13.0
 #-------------------------------------------------------------------------------
 # Use with sudo
-# V0103   2020 01 21
+# V0104   2020 06 01
 ################################################################################
 
 #Start with SO
@@ -74,7 +74,17 @@ sudo git pull
 echo -e "\e[0;32m Actualizado social  \e[0m"
 cd ..
 
- 
+cd website/
+sudo git pull
+echo -e "\e[0;32m Actualizado website  \e[0m"
+cd ..
+
+cd timesheet/
+sudo git pull
+echo -e "\e[0;32m Actualizado timesheet  \e[0m"
+cd ..
+
+
  echo
   echo -e "\e[0;33m Finalizada la actualización de los addons de Odoo ...\e[0m"
   echo
