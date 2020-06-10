@@ -8,7 +8,7 @@
 # Odoo V 13.0
 #-------------------------------------------------------------------------------
 # Use with sudo
-# V0104   2020 06 01
+# V0104   2020 06 10
 ################################################################################
 
 #Start with SO
@@ -84,6 +84,10 @@ sudo git pull
 echo -e "\e[0;32m Actualizado timesheet  \e[0m"
 cd ..
 
+cd account-financial-reporting/
+sudo git pull
+echo -e "\e[0;32m Actualizado account-financial-reporting  \e[0m"
+cd ..
 
  echo
   echo -e "\e[0;33m Finalizada la actualización de los addons de Odoo ...\e[0m"
