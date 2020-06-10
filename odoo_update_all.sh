@@ -99,6 +99,16 @@ sudo git pull
 echo -e "\e[0;32m Actualizado mis-builder \e[0m"
 cd ..
 
+cd reporting-engine/
+sudo git pull
+echo -e "\e[0;32m Actualizado reporting-engine \e[0m"
+cd ..
+
+cd server-tools/
+sudo git pull
+echo -e "\e[0;32m Actualizado server-tools \e[0m"
+cd ..
+
  echo
   echo -e "\e[0;33m Finalizada la actualización de los addons de Odoo ...\e[0m"
   echo
