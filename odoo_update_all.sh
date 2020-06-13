@@ -109,6 +109,11 @@ sudo git pull
 echo -e "\e[0;32m Actualizado server-tools \e[0m"
 cd ..
 
+cd hr-attendance/
+sudo git pull
+echo -e "\e[0;32m Actualizado hr-attendance \e[0m"
+cd ..
+
  echo
   echo -e "\e[0;33m Finalizada la actualización de los addons de Odoo ...\e[0m"
   echo
